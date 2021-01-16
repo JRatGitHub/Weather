@@ -16,7 +16,7 @@
 			$RAINFALLLAST24HOUR = $this->RegisterVariableFloat('RAINFALLLAST24HOUR','regen laaste 24 uur','~Rainfall');
 			$RAINFALLLASTHOUR = $this->RegisterVariableFloat('RAINFALLLASTHOUR','regen laatste uur','~Rainfall');
 			
-			$this->RegisterTimer('INTERVAL',10, 'BUIENRADAR_GetData($id)');
+			$this->RegisterTimer('INTERVAL',120, 'BUIENRADAR_GetData($id)');
 		}
 
 
