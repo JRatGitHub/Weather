@@ -1,0 +1,12 @@
+{
+    "id": "{54093D9B-AC1F-2A1B-A811-F5C5D53574AC}",
+    "name": "Buienradar",
+    "type": 3,
+    "vendor": "",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "BUIENRADAR",
+    "url": ""
+}
