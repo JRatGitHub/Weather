@@ -5,6 +5,8 @@
 		{
 			//Never delete this line!
 			parent::Create();
+
+			
 		}
 
 		public function Destroy()
