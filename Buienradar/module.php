@@ -69,6 +69,8 @@
 			$stationmeasurements = $wizards['actual']['stationmeasurements']['12'];
 			print_r($stationmeasurements);		
 			SetValueFloat($this->GetIDForIdent('TEMPERATURE'),$stationmeasurements['temperature']);
+			SetValueInteger($this->GetIDForIdent('HUMIDITY'),$stationmeasurements['humidity']);
+			SetValueFloat($this->GetIDForIdent('AIRPRESSURE'),$stationmeasurements['airpressure']);
 		}
 
 	}
