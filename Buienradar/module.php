@@ -66,8 +66,9 @@
 			$wizards = json_decode($data, true);
 		//	SetValueFloat($this->GetIDForIdent('TEMPERATURE'),$wizards['0']['8']);
 			// check of er ook echt data is
-			$WeerstationGroningen = $wizards['actual']['stationmeasurements']['12'];
-			print_r($WeerstationGroningen);		
+			$stationmeasurements = $wizards['actual']['stationmeasurements']['12'];
+			print_r($stationmeasurements);		
+			SetValueFloat($this->GetIDForIdent('TEMPERATURE'),stationmeasurements['temperature']);
 		}
 
 	}
