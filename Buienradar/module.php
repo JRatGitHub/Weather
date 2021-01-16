@@ -6,7 +6,7 @@
 			//Never delete this line!
 			parent::Create();
 
-			
+			$this->RegisterPropertyString ('City','Groningen');
 		}
 
 		public function Destroy()
