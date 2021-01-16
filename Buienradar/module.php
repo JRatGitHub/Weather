@@ -11,10 +11,10 @@
 			$TEMPERATURE = $this->RegisterVariableFloat('TEMPERATURE','Temperatuur','~Temperature');
 			$HUMIDITY = $this->RegisterVariableInteger('HUMIDITY','Luchtvochtigheid','~Intensity.100');
 			$AIRPRESSURE = $this->RegisterVariableFloat('AIRPRESSURE','Luchtdruk','~AirPressure.F');
-			$FEELTEMPERATURE = $this->RegisterVariableFloat('FEELTEMPERATURE','Temperatuur','~Temperature');
+			$FEELTEMPERATURE = $this->RegisterVariableFloat('FEELTEMPERATURE','gevoelstemperatuur','~Temperature');
 			
-			$RAINFALLLAST24HOUR = $this->RegisterVariableFloat('RAINFALLLAST24HOUR','regen laaste 24 uur','~Temperature');
-			$RAINFALLLASTHOUR = $this->RegisterVariableFloat('RAINFALLLASTHOUR','regen laatste uur','~Temperature');
+			$RAINFALLLAST24HOUR = $this->RegisterVariableFloat('RAINFALLLAST24HOUR','regen laaste 24 uur','~Rainfall');
+			$RAINFALLLASTHOUR = $this->RegisterVariableFloat('RAINFALLLASTHOUR','regen laatste uur','~Rainfall');
 			
 			$this->RegisterTimer('INTERVAL',10, 'BUIENRADAR_GetData($id)');
 		}
