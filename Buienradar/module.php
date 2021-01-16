@@ -68,7 +68,7 @@
 			// check of er ook echt data is
 			$stationmeasurements = $wizards['actual']['stationmeasurements']['12'];
 			print_r($stationmeasurements);		
-			SetValueFloat($this->GetIDForIdent('TEMPERATURE'),stationmeasurements['temperature']);
+			SetValueFloat($this->GetIDForIdent('TEMPERATURE'),$stationmeasurements['temperature']);
 		}
 
 	}
