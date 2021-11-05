@@ -71,7 +71,7 @@
 		//	SetValueFloat($this->GetIDForIdent('TEMPERATURE'),$wizards['0']['8']);
 			// check of er ook echt data is
 			$stationmeasurements = $wizards['actual']['stationmeasurements']['12'];
-			print_r($stationmeasurements);		
+		//	print_r($stationmeasurements);		
 			SetValueFloat($this->GetIDForIdent('TEMPERATURE'),$stationmeasurements['temperature']);
 			SetValueInteger($this->GetIDForIdent('HUMIDITY'),$stationmeasurements['humidity']);
 			SetValueFloat($this->GetIDForIdent('AIRPRESSURE'),$stationmeasurements['airpressure']);
